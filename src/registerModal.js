@@ -59,7 +59,7 @@ const registerJoinedPlayers = () => {
 
 
 const register = () => {
-  let foundPlayers = false;
+  const [foundPlayers, setFoundPlayers] = useState(false);
   if (foundPlayers === false) {
     return (
         <div className="registermodal">
@@ -67,7 +67,7 @@ const register = () => {
           {registerWait()}
           {registerJoinedPlayers()}
           {registerLoading()}
-          {setTimeout(() => {foundPlayers=true}, 3000)}
+          {setTimeout(() => {setFoundPlayers(true)}, 3000)}
         </div>
     )
   }
@@ -75,6 +75,7 @@ const register = () => {
     return (
         <div className="registermodal">
           {registerHeading()}
+          {setTimeout(() => {setFoundPlayers(false)}, 3000)}
         </div>
     )
   }
