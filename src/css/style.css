@@ -1,0 +1,570 @@
+body {
+	background-color: #202126;
+	color: #fff;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #35364A;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #3D2F60;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.container {
+	max-width: 1400px!important;
+}
+
+.logo {
+	width: 50px;
+}
+
+.button {
+	margin-top: 20px;
+	background-color: #FFCA2A;
+	border-radius: 21px;
+	color: #000000;
+	font-weight: 800;
+	padding:7px 20px;
+}
+
+.header_jackpot{
+	display: flex;
+	position: relative;
+}
+
+.header_jackpot div{
+	
+	display: flex;
+	flex-direction: row;
+}
+
+.header_jackpot p{
+	color: #D6D9D9;
+	font-weight: 700;
+	margin: 0;
+}
+
+.header_jackpot_main p{	font-size: 20px;}
+
+.header_jackpot .header_jackpot_main{
+	background-color: #505081;
+	border-radius: 3px;
+	width: 27px;
+	height: 35px;
+	align-items: center;
+	justify-content: center;
+}
+
+.header_jackpot_mini{
+	position: absolute;
+	bottom: 0;
+}
+
+.header_jackpot .header_jackpot_secondary{
+	background-color: #40406D;
+	border-radius: 3px;
+	width: 23px;
+	height: 29px;
+	align-items: center;
+	justify-content: center;
+}
+
+.header_jackpot_secondary p {color: #9AAACF;}
+
+.header_jackpot_dot {
+	background-color: #505081;
+	height: 5px;
+	position: absolute;
+	width: 5px;
+	bottom: 5%;
+	border-radius: 50%;
+	display: inline-block;
+}
+
+.header_jackpot_heading {
+	font-size: 20px;
+	color: #98AAC2;
+}
+
+
+
+.header_buychips {margin-top: 10px;}
+
+/* Nav */
+.header_nav {
+	background-color: #3D2F60!important;
+	border-radius: 5px;
+}
+
+.nav a {color: #FFFFFF;}
+.nav a:hover {color: #FFFF00;}
+.nav .active {
+	color: #FFFF00;
+	border-bottom: #FF00B2 4px solid ;
+	border-radius: 4px 4px 0 0 ;
+	margin-bottom: 0!important;
+	position: relative;
+}
+
+
+
+/* CARDBOX */
+
+.cardbox {
+	padding: 10px;
+}
+
+.cardbox-card{
+	border-radius: 10px;
+	width: 200px;
+	height: 301px;	
+	background-color: #5f39b7;
+	padding: 10px;
+}
+
+.cardbox_card_type {
+	width: 100px;
+}
+
+.cardbox_card_type h6{
+	display: inline-block;
+}
+
+.cardbox_card_border {
+	display: block;
+	width: 90%;
+	border-radius: 5px;
+	border: 3px solid #95C7EE;
+}
+
+.cardbox_card_dot {
+	background-color: #6FF27B;
+	height: 7.5px;
+	position: absolute;
+	width: 7.5px;
+	bottom: 0;
+	border-radius: 50%;
+	right: 0;
+}
+
+.cardbox_card_heading {
+	position: relative;
+}
+
+.cardbox_card_heading h1 {
+	font-size: 60px;
+	margin-bottom: 0;
+}
+
+.cardbox_card_heading h1:after{
+	position: absolute;
+	bottom: 10%;
+	content: "GEL";
+	font-size: 16px;
+}
+
+.cardbox_card_register {
+	border-radius: 5px;
+	height: 50px;
+	background-color: #764ED4;
+
+}
+
+.cardbox_card_register a button{
+	color: #fff;
+	background-color: transparent;
+	border: none;
+	outline: none;
+}
+
+.list_head a {
+	display: inline-block;
+}
+
+.list_head .nav-item .active{
+	border-bottom: 2px solid #6D728E;
+}
+
+.list_head .nav-item .active::after{
+	content: "";
+	background-color: #FFD919;
+	height: 7px;
+	position: absolute;
+	width: 7px;
+	bottom: -10%;
+	right: -8%;
+	border-radius: 50%;
+	display: inline-block;
+}
+
+/* TABLE */
+
+.list_table th{
+	background-color: #2B2E3A!important;
+}
+
+.list_table tr:nth-of-type(even){background-color: #252630;}
+.list_table tr:nth-of-type(odd){background-color: #272936;}
+
+.list_table th,td{
+	padding: 10px;
+}
+
+.list_table_time{
+	width: 20px;
+	height: 20px;
+}
+
+.list_table_border {
+	padding: 5px 10px;
+
+	border-radius: 15px;
+	margin-bottom: 0;
+	width: 50%;
+	color: #FFD919;
+	font-weight: 600;
+}
+
+.list_table_coefficient{
+	background-color: #323341;	
+}
+
+.list_table_prize{
+	background-color: #5F39B7;
+}
+
+/* SIDEBAR */
+.sidebar{
+	background-color: #3b354a;
+	border-radius: 5px;
+}
+
+.sidebar_history_button {
+	border-radius: 19px;
+	border: 1px solid #60667E;
+	padding: 5px 10px;
+	width: 120px;
+	color: #C5D8F9;
+}
+
+.sidebar_history_button img {width: 20px;}
+
+.sidebar_logo_circle {
+	border-radius: 50%;
+	width: 127px;
+	height: 127px;
+	background-color: #5936b1;
+	border: 8px solid #9C75F8;
+}
+
+.sidebar-border{
+	border-radius: 27px;
+	padding: 10px 10px;
+	width: 500px;	
+}
+
+.sidebar_balance {background-color: #6E717E;}
+.sidebar_balance p{margin-bottom:  0;}
+.sidebar_spin {background-color: #217C8B;}
+
+.sidebar_spin_heading {
+	width: 150px;
+}
+
+.sidebar_spin_border {
+	border: 3px solid #BDC63E;
+	border-radius: 5px;
+}
+.sidebar_spin_dot {
+	background-color: #9A6FF2;
+	height: 7.5px;
+	position: absolute;
+	width: 7.5px;
+	bottom: 0;
+	border-radius: 50%;
+	right: 0;
+}
+
+.sidebar-historylist-block{
+	background-color: #444563;
+	border-radius: 5px;
+}
+
+.sidebar_historylist_price {
+	position: relative;
+}
+
+.sidebar_historylist_price h3 {
+	margin-bottom: 0;
+	color: #39B7FF;
+}
+
+.sidebar_historylist_price h3:after{
+	position: absolute;
+	bottom: 10%;
+	content: "GEL";
+	font-size: 12px;
+}
+
+.sidebar_historylist_date{color: #B2A2D8;}
+
+.sidebar-historylist-name p{
+	font-size: 15px;
+	margin-bottom: 0;
+}
+
+.sidebar-historylist-name h6{
+	font-weight: 600;
+	font-size: 18px;
+}
+
+.sidebar-historylist-cross {
+	background-color: #575875;
+	padding: 3px;
+}
+
+.history_table{
+	text-align: center;
+	    border-collapse: separate;
+    border-spacing: 0 2px;
+
+}
+
+.history_table tr {
+	width: 100%;
+	border-radius: 5px;
+	margin-bottom: 5px;
+}
+
+.history_table th{
+	margin-top: 5px;
+	background-color: #35364A!important;
+	padding: 5px 10px;
+}
+
+.history_table td{background-color: #444563;}
+
+.history_table td:first-child{border-radius:5px 0 0 5px;}
+.history_table td:last-child{border-radius:0 5px 5px 0;}
+
+.history_table_money {
+	color: #FFFF00;
+}
+
+.registermodal_card_type {
+	width: 100px;
+}
+
+.registermodal_card_type h6{
+	display: inline-block;
+}
+
+.registermodal_card_border {
+	display: block;
+	width: 50%;
+	border-radius: 5px;
+	border: 3px solid #95C7EE;
+}
+
+.registermodal_card_dot {
+	background-color: #6FF27B;
+	height: 7.5px;
+	position: absolute;
+	width: 7.5px;
+	bottom: 0;
+	border-radius: 50%;
+	left: 51%;
+}
+
+.register_card_button .button {
+	font-size: 13px;
+}
+
+.register_price {
+	position: relative;
+}
+
+.register_price h2 {
+	margin-bottom: 0;
+	color: #fff;
+}
+
+.register_price h2:after{
+	position: absolute;
+	bottom: 10%;
+	content: "GEL";
+	padding: 0 5px;
+	font-size: 12px;
+}
+
+.register-loading p {
+	font-size: 13px;
+}
+
+
+.progress-bar {
+  border-radius: 60px;
+  overflow: hidden;
+  width: 100%;
+}
+.progress-bar span {
+  display: block;
+}
+
+.bar {
+  background:#26C6DF;
+  height: 3px;
+}
+
+.progress {
+  -webkit-animation: loader 4s ease infinite;
+          animation: loader 4s ease infinite;
+  background: #17FF4D;
+  color: #fff;
+  padding: 5px;
+  width: 0;
+  height: 2px;
+}
+
+.progress-bar {
+  left: 50%;
+  max-width: 50%;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate3d(-50%, -50%, 0);
+          transform: translate3d(-50%, -50%, 0);
+}
+
+.register_close_button {
+	background-color: #1A6F7D;
+	border-radius: 5px;
+	color: #fff;
+	border: none;
+	padding: 10px 15px;
+}
+
+@media screen and (max-width:1000px){
+	.header_jackpot_main p{	font-size: 16px;} /*20->16*/
+
+	.header_jackpot .header_jackpot_main{
+		width: 23px;
+		height: 27px;
+	}
+
+	.header_jackpot .header_jackpot_secondary{
+		width: 15px;
+		height: 21px;
+	}
+
+	.header_jackpot_secondary p {font-size: 14px;}
+
+	.header_jackpot_heading {
+		font-size: 16px;
+	}
+
+	.header_buychips {
+		padding:5px 12px;
+	}
+	.header_section2 a img{
+		width: 16px;
+	}
+}
+
+@media screen and (max-width:800px){
+	.header_jackpot_main p{	font-size: 14px;} /*20->16*/
+
+	.header_jackpot .header_jackpot_main{
+		width: 17px;
+		height: 22px;
+	}
+	.header_jackpot .header_jackpot_secondary{
+		width: 12px;
+		height: 18px;
+	}
+	.header_jackpot_heading {
+		font-size: 14px;
+	}
+	.header_buychips {
+		font-size: 13px;
+	}
+}
+
+@-webkit-keyframes loader {
+  0% {
+    width: 0;
+  }
+  20% {
+    width: 10%;
+  }
+  25% {
+    width: 24%;
+  }
+  43% {
+    width: 41%;
+  }
+  56% {
+    width: 50%;
+  }
+  66% {
+    width: 52%;
+  }
+  71% {
+    width: 60%;
+  }
+  75% {
+    width: 76%;
+  }
+  94% {
+    width: 86%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes loader {
+  0% {
+    width: 0;
+  }
+  20% {
+    width: 10%;
+  }
+  25% {
+    width: 14%;
+  }
+  43% {
+    width: 41%;
+  }
+  56% {
+    width: 50%;
+  }
+  66% {
+    width: 52%;
+  }
+  71% {
+    width: 60%;
+  }
+  75% {
+    width: 76%;
+  }
+  94% {
+    width: 86%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
