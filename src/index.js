@@ -4,14 +4,13 @@ import * as heading from './header';
 import * as cardbox from './cardbox';
 import * as sideBar from './sidebar';
 import * as table from './table';
-import game from './game';
-import App from './App';
+import * as App from './App';
 import './css/style.css';
 import { BrowserRouter , Switch , Route } from 'react-router-dom';
 
 const Leaderbet = () => {
 	return (
-		<div>
+		<div className='homepage'>
 			{heading.header()}
 			<div class="container">
 				<div class="row">
@@ -32,24 +31,31 @@ const Leaderbet = () => {
 		</div>
 	)
 };
-
-const router = () => {
-	return ( 
-		<Leaderbet />
+const GamePage = () => {
+	return (
+		<div className=''>
+			{App.App3()}
+		</div>
 	)
-}
+};
 
+const Main = () => (
+      <Switch>
+        <Route exact path='/' component={Leaderbet}></Route>
+        <Route exact path='/Game' component={GamePage}></Route>
+      </Switch>
+    );
 
-/*ReactDOM.render(
+ReactDOM.render(
 	<BrowserRouter>
-		<Leaderbet />
+		<Main />
 	</BrowserRouter>
 	,
 	document.querySelector('#root')
-);*/
-
-ReactDOM.render(
-	
-	<Leaderbet />,
-	document.querySelector('#root')
 );
+
+/*ReactDOM.render(
+	
+	<Gamepage />,
+	document.querySelector('#root')
+);*/

@@ -150,7 +150,7 @@ const gameStart = () => {
                     </p>                    
                   </div>
                   <div className="gameStart-button mt-3">
-                    <a className='mt-4' href="game.html">დაწყება</a>
+                    <a className='mt-4' href="Game">დაწყება</a>
                   </div>
                   
                 </div>
@@ -173,7 +173,7 @@ const Register = () => {
   let [foundPlayers, setFoundPlayers] = useState(false);
   const [modalAIsOpen, setModalIsOpen] = useState(false)
   if (foundPlayers === false) {
-          {setTimeout(() => {setFoundPlayers(true)}, 1000)}
+          {setTimeout(() => {setFoundPlayers(true)}, 5000)}
     return (
         <div className="registermodal">
           {registerHeading()}

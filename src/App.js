@@ -2,8 +2,10 @@ import React, { useState } from 'react';
 import ReactDOM from 'react-dom';
 import Modal from 'react-modal';
 import * as history from './historyModal';
+import * as game from './game';
 import * as register from './registerModal';
 import { BrowserRouter as Router , Switch , Route } from 'react-router-dom';
+
 
 const App = () => {
   const [modalIsOpen, setModalIsOpen] = useState(false)
@@ -113,7 +115,40 @@ const App2 = () => {
 }
 
 
+const App3 = () => {
+  const [modalIsOpen, setModalIsOpen] = useState(true)
+  return (
+      <Modal isOpen={modalIsOpen}
+
+  style={{
+    overlay: {
+      top: 0,
+      left: 0,
+      right: 0,
+      bottom: 0,
+      backgroundColor: 'rgba(0, 0, 0, 0.48)'
+    },
+    content: {
+      top: '0',
+      left: '0',
+      right: '250px',
+      bottom: '40px',
+      width:'400px',
+      height:'100%',
+      border: '1px solid #241E36',
+      background: '#fff',
+      overflow: 'auto',
+      WebkitOverflowScrolling: 'touch',
+      outline: 'none',
+      padding: '20px',
+      backgroundColor: '#241E36',
+      transition:'2s',
+    }
+  }}>
+      {game.GameUI()}
+      </Modal>
+  )
+}
 
 
-
-export { App , App2}
+export { App , App2 , App3}
