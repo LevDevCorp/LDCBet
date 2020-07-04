@@ -4,8 +4,10 @@ import * as heading from './header';
 import * as cardbox from './cardbox';
 import * as sideBar from './sidebar';
 import * as table from './table';
+import game from './game';
 import App from './App';
-import './css/style.css'
+import './css/style.css';
+import { BrowserRouter , Switch , Route } from 'react-router-dom';
 
 const Leaderbet = () => {
 	return (
@@ -31,9 +33,23 @@ const Leaderbet = () => {
 	)
 };
 
+const router = () => {
+	return ( 
+		<Leaderbet />
+	)
+}
 
+
+/*ReactDOM.render(
+	<BrowserRouter>
+		<Leaderbet />
+	</BrowserRouter>
+	,
+	document.querySelector('#root')
+);*/
 
 ReactDOM.render(
+	
 	<Leaderbet />,
 	document.querySelector('#root')
 );

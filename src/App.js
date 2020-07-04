@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import Modal from 'react-modal';
 import * as history from './historyModal';
 import * as register from './registerModal';
+import { BrowserRouter as Router , Switch , Route } from 'react-router-dom';
 
 const App = () => {
   const [modalIsOpen, setModalIsOpen] = useState(false)
@@ -35,9 +36,8 @@ const App = () => {
       padding: '20px',
       backgroundColor:'#198a9c',
     }
-  }}
-      >
-        {register.register()}
+  }} >
+        {register.Register()}
         <div>
           <button className='register_close_button mt-1 float-right' onClick={() => setModalIsOpen(false)}>დახურვა</button>
         </div>
@@ -95,18 +95,25 @@ const App2 = () => {
       backgroundColor: '#35364A',
       transition:'2s',
     }
-  }}
-      >
-
-        <div>
+  }}>
+<div >
+        <div className='closeButton'>
           <button style={modalClose} onClick={() => setModalIsOpen(false)}>
           <img  alt="user" src="images/close.svg" /></button>
         </div>
-        {history.historyTable()}
+        {history.historyTable()}  
+</div>
+
 
       </Modal>
+
+
     </div>
   )
 }
+
+
+
+
 
 export { App , App2}

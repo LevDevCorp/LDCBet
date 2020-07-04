@@ -430,8 +430,8 @@ body {
 }
 
 .progress {
-  -webkit-animation: loader 4s ease infinite;
-          animation: loader 4s ease infinite;
+  -webkit-animation: loader 5s ease infinite;
+          animation: loader 5s ease infinite;
   background: #17FF4D;
   color: #fff;
   padding: 5px;
@@ -455,6 +455,126 @@ body {
 	border: none;
 	padding: 10px 15px;
 }
+
+.register-ready-gameposter {
+	display: flex;
+	justify-content: center;
+}
+
+.register-ready-img img{
+	border-radius: 5px;
+	height: 100px;
+}
+
+.register-ready-img {
+	padding: 15px;
+	width: 230px;
+	display: flex;
+	justify-content: center;
+	border: 2px solid #56BEC9;
+	border-radius: 10px;
+}
+
+.register-ready-img h1 {
+	margin: auto;
+}
+
+.register-ready-midsection p {
+	text-align: center;
+	width: 150px;
+	background-color: rgb(25, 138, 156);
+}
+
+.register-ready-text{    
+	position: absolute;
+    bottom: -25px;
+}
+
+.register-ready-lowersection {
+	position: absolute;
+    background-color: rgb(25, 138, 156);
+    width: 500px;
+}
+
+.register-ready-players .cardbox_card_rating {
+	text-align: left!important;
+}
+
+.register-ready-players .cardbox_card_rating a{
+	margin-left: 0!important;
+	text-align: left!important;
+}
+
+.closeButton button{
+	background-color:transparent;
+    border:none;
+    float:right;
+    position: absolute;
+    right: 0;
+    z-index: 1;
+}
+
+.gameStart {
+	margin-left: 0!important;
+	margin-right: 0!important;
+}
+
+.gameStart-Sectionleft{
+	background-color: #201932;
+	height: 498px;
+
+}
+.gameStart-Sectionright{
+	background-color: #352D4B;
+	height: 498px;
+
+}
+
+.gameStart-Sectionleft table tr{
+	border-top: 1px solid #312946;
+}
+.gameStart-Sectionleft table td{
+	font-size: 15px;
+	padding: 15px 5px;
+}
+
+.gameStart-Sectionleft table td:nth-of-type(even){
+	color: #FFE926;
+	text-align: right;
+}
+.gameStart-Sectionleft table td:nth-of-type(odd){
+	color: #fff;
+	text-align: left;
+}
+
+.gameStart-Sectionleft p {
+	font-size: 13px;
+}
+
+.gameStart-Sectionright .register-ready-text p {
+	background-color: #352D4B!important;
+}
+.gameStart-Sectionright .register_price h2 {
+	color: #FFE926;
+	font-weight: 600;
+}
+
+.gameStart-Sectionright .box p {
+	width: 250px;
+	margin-bottom: 3px;
+	background-color: #413858;
+}
+
+.gameStart-button a {
+	background-color: #2DBFB5;
+    border-radius: 5px;
+    color: #fff;
+    border: none;
+    float: right;
+    font-size: 19px;
+    padding: 10px 15px;
+}
+
 
 @media screen and (max-width:1000px){
 	.header_jackpot_main p{	font-size: 16px;} /*20->16*/
