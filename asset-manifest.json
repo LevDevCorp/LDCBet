@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/LDCBet/static/css/main.a0af0c25.chunk.css",
-    "main.js": "/LDCBet/static/js/main.474cc5e0.chunk.js",
-    "main.js.map": "/LDCBet/static/js/main.474cc5e0.chunk.js.map",
+    "main.js": "/LDCBet/static/js/main.40dcdb59.chunk.js",
+    "main.js.map": "/LDCBet/static/js/main.40dcdb59.chunk.js.map",
     "runtime-main.js": "/LDCBet/static/js/runtime-main.1b23ed4b.js",
     "runtime-main.js.map": "/LDCBet/static/js/runtime-main.1b23ed4b.js.map",
     "static/js/2.68cef739.chunk.js": "/LDCBet/static/js/2.68cef739.chunk.js",
     "static/js/2.68cef739.chunk.js.map": "/LDCBet/static/js/2.68cef739.chunk.js.map",
     "index.html": "/LDCBet/index.html",
-    "precache-manifest.0f55165aba66f1b76464e81666eb94da.js": "/LDCBet/precache-manifest.0f55165aba66f1b76464e81666eb94da.js",
+    "precache-manifest.57074689ff312f855fc4c6b461e8d0ca.js": "/LDCBet/precache-manifest.57074689ff312f855fc4c6b461e8d0ca.js",
     "service-worker.js": "/LDCBet/service-worker.js",
     "static/css/main.a0af0c25.chunk.css.map": "/LDCBet/static/css/main.a0af0c25.chunk.css.map",
     "static/js/2.68cef739.chunk.js.LICENSE.txt": "/LDCBet/static/js/2.68cef739.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.1b23ed4b.js",
     "static/js/2.68cef739.chunk.js",
     "static/css/main.a0af0c25.chunk.css",
-    "static/js/main.474cc5e0.chunk.js"
+    "static/js/main.40dcdb59.chunk.js"
   ]
 }
