@@ -27,7 +27,7 @@ const header = () => {
 
 									</div>
 								</div>
-								<p className="ml-4 mr-4 header_jackpot_heading" >Leader Jackpot</p>
+								<p className="ml-4 mr-4 header_jackpot_heading" >First Project</p>
 							</div>
 							<div className="col-5 ">
 								<div className="header_jackpot">
@@ -44,7 +44,7 @@ const header = () => {
 										</div>
 									</div>
 								</div>
-								<p className="ml-4 mr-4 header_jackpot_heading" >Leader Jackpot</p>
+								<p className="ml-4 mr-4 header_jackpot_heading" >First Project</p>
 							</div>
 						</div>
 					</div>
