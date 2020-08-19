@@ -8,7 +8,7 @@ const tableRow = () => {
 			    <td>2 ლარი</td>
 			    <td>100X</td>
 			    <td>5 კაციანი</td>
-			    <td><img src="images/user.svg" alt="user"/>ნოდარა, ელდარა, ემზარა, ზაირა, მერება</td>
+			    <td><img src="../images/user.svg" alt="user"/>ნოდარა, ელდარა, ემზარა, ზაირა, მერება</td>
 			    <td>10</td>
 			    <td className="history_table_money" >5000 ლარი</td>
 			</tr>

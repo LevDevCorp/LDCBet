@@ -19,8 +19,6 @@ const Leaderbet = () => {
 						{cardbox.cardList()}
 						{table.listHeading()}
 						{table.tableList()}
-						
-
 					</div>
 					<div class="col-3">
 						{sideBar.sideBarSection1()}
@@ -31,6 +29,7 @@ const Leaderbet = () => {
 		</div>
 	)
 };
+
 const GamePage = () => {
 	return (
 		<div className=''>
@@ -40,22 +39,15 @@ const GamePage = () => {
 };
 
 const Main = () => (
+    <BrowserRouter>
       <Switch>
-        <Route exact path='/' component={Leaderbet}></Route>
-        <Route exact path='/Game' component={GamePage}></Route>
+        <Route exact path='/leaderbet/' component={Leaderbet}></Route>
+        <Route exact path='/leaderbet/Game' component={GamePage}></Route>
       </Switch>
+    </BrowserRouter>
     );
 
 ReactDOM.render(
-	<BrowserRouter>
-		<Main />
-	</BrowserRouter>
-	,
+	<Main />,
 	document.querySelector('#root')
 );
-
-/*ReactDOM.render(
-	
-	<Gamepage />,
-	document.querySelector('#root')
-);*/
