@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/leaderbet/static/css/main.a0af0c25.chunk.css",
-    "main.js": "/leaderbet/static/js/main.64cd4445.chunk.js",
-    "main.js.map": "/leaderbet/static/js/main.64cd4445.chunk.js.map",
+    "main.js": "/leaderbet/static/js/main.bb4cce10.chunk.js",
+    "main.js.map": "/leaderbet/static/js/main.bb4cce10.chunk.js.map",
     "runtime-main.js": "/leaderbet/static/js/runtime-main.d0382feb.js",
     "runtime-main.js.map": "/leaderbet/static/js/runtime-main.d0382feb.js.map",
     "static/js/2.66b80cf8.chunk.js": "/leaderbet/static/js/2.66b80cf8.chunk.js",
     "static/js/2.66b80cf8.chunk.js.map": "/leaderbet/static/js/2.66b80cf8.chunk.js.map",
     "index.html": "/leaderbet/index.html",
-    "precache-manifest.aa908c01386470bff341f0b8df3ed126.js": "/leaderbet/precache-manifest.aa908c01386470bff341f0b8df3ed126.js",
+    "precache-manifest.44283a572203ed6c9200c7abc61592b3.js": "/leaderbet/precache-manifest.44283a572203ed6c9200c7abc61592b3.js",
     "service-worker.js": "/leaderbet/service-worker.js",
     "static/css/main.a0af0c25.chunk.css.map": "/leaderbet/static/css/main.a0af0c25.chunk.css.map",
     "static/js/2.66b80cf8.chunk.js.LICENSE.txt": "/leaderbet/static/js/2.66b80cf8.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.d0382feb.js",
     "static/js/2.66b80cf8.chunk.js",
     "static/css/main.a0af0c25.chunk.css",
-    "static/js/main.64cd4445.chunk.js"
+    "static/js/main.bb4cce10.chunk.js"
   ]
 }
