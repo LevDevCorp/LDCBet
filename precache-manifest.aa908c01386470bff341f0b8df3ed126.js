@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "843f3012e91ac229e128d147bf33263a",
+    "revision": "1b5f91354ddd5c6ea50ac44c94d8fac8",
     "url": "/leaderbet/index.html"
   },
   {
-    "revision": "498dc24c982e283225fe",
+    "revision": "8a51bf97bea1687d1d3e",
     "url": "/leaderbet/static/css/main.a0af0c25.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/leaderbet/static/js/2.66b80cf8.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "498dc24c982e283225fe",
-    "url": "/leaderbet/static/js/main.bb4cce10.chunk.js"
+    "revision": "8a51bf97bea1687d1d3e",
+    "url": "/leaderbet/static/js/main.64cd4445.chunk.js"
   },
   {
     "revision": "4875f35ef51154ebf239",
