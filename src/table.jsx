@@ -26,11 +26,11 @@ const listHeading = () => {
 const tableRow = () => {
 	return (
 			  <tr>
-			    <td><img src="../images/logo2.svg" alt="logo2"/></td>
+			    <td><img src="./images/logo2.svg" alt="logo2"/></td>
 			    <td># 4412452</td>
-			    <td><img className="mr-2 list_table_time" src="../images/history.svg"/>12:33</td>
+			    <td><img className="mr-2 list_table_time" src="./images/history.svg"/>12:33</td>
 			    <td><div><p className="list_table_coefficient list_table_border m-auto">2.37</p></div></td>
-			    <td><img className="mr-2 list_table_time" src="../images/user.svg"/>Nodard...</td>
+			    <td><img className="mr-2 list_table_time" src="./images/user.svg"/>Nodard...</td>
 			    <td><div><p className="list_table_prize list_table_border m-auto">33.35₾</p></div></td>
 			  </tr>
 	)

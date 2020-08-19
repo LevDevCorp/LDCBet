@@ -50,11 +50,11 @@ const registerWait = () => {
 const registerJoinedPlayers = () => {
   return (
         <div class="cardbox_card_rating text-center mt-4">
-          <a class="m-1 ml-4 mr-4" href="#"><img src="../images/registerlogo.svg" /></a>
-          <a class="m-1 ml-4 mr-4" href="#"><img src="../images/registerlogo.svg" /></a>
-          <a class="m-1 ml-4 mr-4" href="#"><img src="../images/registerlogo.svg" /></a>
-          <a class="m-1 ml-4 mr-4" href="#"><img src="../images/registerlogooff.svg" /></a>
-          <a class="m-1 ml-4 mr-4" href="#"><img src="../images/registerlogooff.svg" /></a>
+          <a class="m-1 ml-4 mr-4" href="#"><img src="./images/registerlogo.svg" /></a>
+          <a class="m-1 ml-4 mr-4" href="#"><img src="./images/registerlogo.svg" /></a>
+          <a class="m-1 ml-4 mr-4" href="#"><img src="./images/registerlogo.svg" /></a>
+          <a class="m-1 ml-4 mr-4" href="#"><img src="./images/registerlogooff.svg" /></a>
+          <a class="m-1 ml-4 mr-4" href="#"><img src="./images/registerlogooff.svg" /></a>
         </div>
   )
 }
@@ -62,11 +62,11 @@ const registerJoinedPlayers = () => {
 const registerReadyPlayers = () => {
   return (
         <div class="cardbox_card_rating text-center mt-4">
-          <a class="m-1 ml-4 mr-4" href="#"><img src="../images/registerlogo.svg" /></a>
-          <a class="m-1 ml-4 mr-4" href="#"><img src="../images/registerlogo.svg" /></a>
-          <a class="m-1 ml-4 mr-4" href="#"><img src="../images/registerlogo.svg" /></a>
-          <a class="m-1 ml-4 mr-4" href="#"><img src="../images/registerlogo.svg" /></a>
-          <a class="m-1 ml-4 mr-4" href="#"><img src="../images/registerlogo.svg" /></a>
+          <a class="m-1 ml-4 mr-4" href="#"><img src="./images/registerlogo.svg" /></a>
+          <a class="m-1 ml-4 mr-4" href="#"><img src="./images/registerlogo.svg" /></a>
+          <a class="m-1 ml-4 mr-4" href="#"><img src="./images/registerlogo.svg" /></a>
+          <a class="m-1 ml-4 mr-4" href="#"><img src="./images/registerlogo.svg" /></a>
+          <a class="m-1 ml-4 mr-4" href="#"><img src="./images/registerlogo.svg" /></a>
         </div>
   )
 }
@@ -74,7 +74,7 @@ const registerReadyPlayers = () => {
 const registerReadyMidsectionImage = () => {
   return (
                 <div className="register-ready-gameposter position-relative">
-                  <div className='register-ready-img'><img src="../images/game-poster.png" alt="gameposter"/></div>
+                  <div className='register-ready-img'><img src="./images/game-poster.png" alt="gameposter"/></div>
                   <div className='register-ready-text'><p>JAMING JARS</p></div>
                 </div>
   )
@@ -134,19 +134,19 @@ const gameStart = () => {
                 <div class="pl-2 pr-2 mt-3 box  ">
                   <div className='d-flex justify-content-center'>
                     <p class="sidebar_spin sidebar-border d-flex ">
-                      <img class="mr-2" src="../images/user.svg" alt="spins"/>1 ადგილი
+                      <img class="mr-2" src="./images/user.svg" alt="spins"/>1 ადგილი
                       <span class="ml-auto">2000</span>GEL
                     </p>                    
                   </div>
                   <div className='d-flex justify-content-center'>
                     <p class="sidebar_spin sidebar-border d-flex ">
-                      <img class="mr-2" src="../images/user.svg" alt="spins"/>2 ადგილი
+                      <img class="mr-2" src="./images/user.svg" alt="spins"/>2 ადგილი
                       <span class="ml-auto">2000</span>GEL
                     </p>                    
                   </div>
                   <div className='d-flex justify-content-center'>
                     <p class="sidebar_spin sidebar-border d-flex ">
-                      <img class="mr-2" src="../images/user.svg" alt="spins"/>3 ადგილი
+                      <img class="mr-2" src="./images/user.svg" alt="spins"/>3 ადგილი
                       <span class="ml-auto">2000</span>GEL
                     </p>                    
                   </div>
@@ -226,7 +226,7 @@ style={{
         <div className='position-relative'>
          <div className='closeButton '>
           <button className='m-2' onClick={() => setModalIsOpen(false)}>
-          <img  alt="user" src="../images/test.svg" /></button>
+          <img  alt="user" src="./images/test.svg" /></button>
         </div>         
           {gameStart ()}
         </div>

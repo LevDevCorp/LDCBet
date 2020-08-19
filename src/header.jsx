@@ -9,7 +9,7 @@ const header = () => {
 					<div className="col-xl-9 col-lg-8 col-md-8">
 						<div className="row">
 							<div className="col-2">
-								<img className="logo" alt="logo" src={'../logo.svg'} />
+								<img className="logo" alt="logo" src={'./logo.svg'} />
 							</div>
 							<div className="col-5 ">
 								<div className="header_jackpot">
@@ -49,11 +49,11 @@ const header = () => {
 						</div>
 					</div>
 					<div className="col-xl-3 col-lg-4 col-md-4 mt-2 header_section2">
-						<a className="header_buychips button mr-4" href="#"><img src="../images/buychips.svg" />Cashier</a>
-						<a className="m-1" href="#"><img alt="sound" src="../images/sound.svg" /></a>
-						<a className="m-1" href="#"><img alt="settings" src="../images/settings.svg" /></a>
-						<a className="m-1" href="#"><img alt="cubes" src="../images/cubes.svg" /></a>
-						<a className="m-1" href="#"><img alt="enlarge" src="../images/enlarge.svg" /></a>
+						<a className="header_buychips button mr-4" href="#"><img src="./images/buychips.svg" />Cashier</a>
+						<a className="m-1" href="#"><img alt="sound" src="./images/sound.svg" /></a>
+						<a className="m-1" href="#"><img alt="settings" src="./images/settings.svg" /></a>
+						<a className="m-1" href="#"><img alt="cubes" src="./images/cubes.svg" /></a>
+						<a className="m-1" href="#"><img alt="enlarge" src="./images/enlarge.svg" /></a>
 						
 					</div>
 				</div>

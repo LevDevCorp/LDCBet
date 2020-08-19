@@ -8,24 +8,24 @@ const sideBarSection1 = () => {
 		<div class="sidebar w-100 ">
 			<div class="sidebar_history p-2 ">
 				<a class="sidebar_history_button d-flex ml-auto">
-					<img class="mr-2" src="../images/history.svg" alt="history"/>
+					<img class="mr-2" src="./images/history.svg" alt="history"/>
 				{App.App2()}</a>
 			</div>
 			<div class="sidebar_logo d-flex justify-content-center mt-3">
 				<div class="sidebar_logo_circle d-flex justify-content-center">
-					<img src="../images/logo.svg" alt="logo"/>
+					<img src="./images/logo.svg" alt="logo"/>
 				</div>
 			</div>
 			<h2 class="text-center mt-3">Muscul Bones</h2>
 			<div class="pl-2 mt-4 pr-2 d-flex justify-content-center">
 				<p class="sidebar_balance sidebar-border d-flex mb-2">
-					<img class="mr-2" src="../images/balance.svg" alt="balance"/>ბალანსი
+					<img class="mr-2" src="./images/balance.svg" alt="balance"/>ბალანსი
 					<span class="ml-auto">995.56</span>GEL
 				</p>
 			</div>
 			<div class="pl-2 pr-2  d-flex justify-content-center">
 				<p class="sidebar_spin sidebar-border d-flex ">
-					<img class="mr-2" src="../images/spin.svg" alt="spins"/>ბალანსი
+					<img class="mr-2" src="./images/spin.svg" alt="spins"/>ბალანსი
 					<span class="ml-auto">10</span>GEL
 				</p>
 			</div>
@@ -45,13 +45,13 @@ const sideBarSection2Block = () => {
 						</div>
 					</div>
 					<div class="col-6">
-						<p class="sidebar_historylist_date mt-2"><img class="mr-1" src="../images/history.svg"/>23.04.19<span class="ml-2">20:33</span></p>
+						<p class="sidebar_historylist_date mt-2"><img class="mr-1" src="./images/history.svg"/>23.04.19<span class="ml-2">20:33</span></p>
 					</div>						
 				</div>
 				<div class="sidebar-historylist-name pl-3 pr-3 pb-1">
 					<p>
-						<img class="mr-1" src="../images/user.svg"/>ნოდარა,ელდარა,ემზარა
-						<a href="#"><img class="ml-3 sidebar-historylist-cross" src="../images/cross.svg"/></a>
+						<img class="mr-1" src="./images/user.svg"/>ნოდარა,ელდარა,ემზარა
+						<a href="#"><img class="ml-3 sidebar-historylist-cross" src="./images/cross.svg"/></a>
 					</p>
 					<h6>1000 X 2</h6>
 				</div>

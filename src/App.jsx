@@ -101,7 +101,7 @@ const App2 = () => {
 <div >
         <div className='closeButton'>
           <button style={modalClose} onClick={() => setModalIsOpen(false)}>
-          <img  alt="user" src="images/close.svg" /></button>
+          <img  alt="user" src="./images/close.svg" /></button>
         </div>
         {history.historyTable()}  
 </div>
