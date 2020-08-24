@@ -41,8 +41,8 @@ const GamePage = () => {
 const Main = () => (
     <BrowserRouter>
       <Switch>
-        <Route exact path='/leaderbet/' component={Leaderbet}></Route>
-        <Route exact path='/leaderbet/Game' component={GamePage}></Route>
+        <Route exact path='/ldrbet/' component={Leaderbet}></Route>
+        <Route exact path='/ldrbet/Game' component={GamePage}></Route>
       </Switch>
     </BrowserRouter>
     );
