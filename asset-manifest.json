@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/leaderbet/static/css/main.a0af0c25.chunk.css",
-    "main.js": "/leaderbet/static/js/main.64cd4445.chunk.js",
-    "main.js.map": "/leaderbet/static/js/main.64cd4445.chunk.js.map",
-    "runtime-main.js": "/leaderbet/static/js/runtime-main.d0382feb.js",
-    "runtime-main.js.map": "/leaderbet/static/js/runtime-main.d0382feb.js.map",
-    "static/js/2.66b80cf8.chunk.js": "/leaderbet/static/js/2.66b80cf8.chunk.js",
-    "static/js/2.66b80cf8.chunk.js.map": "/leaderbet/static/js/2.66b80cf8.chunk.js.map",
-    "index.html": "/leaderbet/index.html",
-    "precache-manifest.aa908c01386470bff341f0b8df3ed126.js": "/leaderbet/precache-manifest.aa908c01386470bff341f0b8df3ed126.js",
-    "service-worker.js": "/leaderbet/service-worker.js",
-    "static/css/main.a0af0c25.chunk.css.map": "/leaderbet/static/css/main.a0af0c25.chunk.css.map",
-    "static/js/2.66b80cf8.chunk.js.LICENSE.txt": "/leaderbet/static/js/2.66b80cf8.chunk.js.LICENSE.txt"
+    "main.css": "/ldrbet/static/css/main.a0af0c25.chunk.css",
+    "main.js": "/ldrbet/static/js/main.01f284d7.chunk.js",
+    "main.js.map": "/ldrbet/static/js/main.01f284d7.chunk.js.map",
+    "runtime-main.js": "/ldrbet/static/js/runtime-main.081bc274.js",
+    "runtime-main.js.map": "/ldrbet/static/js/runtime-main.081bc274.js.map",
+    "static/js/2.92c8505d.chunk.js": "/ldrbet/static/js/2.92c8505d.chunk.js",
+    "static/js/2.92c8505d.chunk.js.map": "/ldrbet/static/js/2.92c8505d.chunk.js.map",
+    "index.html": "/ldrbet/index.html",
+    "precache-manifest.153fbec69f93d4dd4b0bd2817743c397.js": "/ldrbet/precache-manifest.153fbec69f93d4dd4b0bd2817743c397.js",
+    "service-worker.js": "/ldrbet/service-worker.js",
+    "static/css/main.a0af0c25.chunk.css.map": "/ldrbet/static/css/main.a0af0c25.chunk.css.map",
+    "static/js/2.92c8505d.chunk.js.LICENSE.txt": "/ldrbet/static/js/2.92c8505d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.d0382feb.js",
-    "static/js/2.66b80cf8.chunk.js",
+    "static/js/runtime-main.081bc274.js",
+    "static/js/2.92c8505d.chunk.js",
     "static/css/main.a0af0c25.chunk.css",
-    "static/js/main.64cd4445.chunk.js"
+    "static/js/main.01f284d7.chunk.js"
   ]
 }
