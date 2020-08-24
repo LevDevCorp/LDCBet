@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e4e097968a549328a57b398534358f88",
+    "revision": "f5757252e7b1befe862709166c21a0c6",
     "url": "/ldrbet/index.html"
   },
   {
-    "revision": "3ae2acc8d72ad24e78f1",
+    "revision": "4399fdad24bc0d523b7d",
     "url": "/ldrbet/static/css/main.a0af0c25.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ldrbet/static/js/2.92c8505d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3ae2acc8d72ad24e78f1",
-    "url": "/ldrbet/static/js/main.352cb37e.chunk.js"
+    "revision": "4399fdad24bc0d523b7d",
+    "url": "/ldrbet/static/js/main.72125676.chunk.js"
   },
   {
     "revision": "dd7e4d1332a284a4967a",

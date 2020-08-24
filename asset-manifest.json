@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/ldrbet/static/css/main.a0af0c25.chunk.css",
-    "main.js": "/ldrbet/static/js/main.352cb37e.chunk.js",
-    "main.js.map": "/ldrbet/static/js/main.352cb37e.chunk.js.map",
+    "main.js": "/ldrbet/static/js/main.72125676.chunk.js",
+    "main.js.map": "/ldrbet/static/js/main.72125676.chunk.js.map",
     "runtime-main.js": "/ldrbet/static/js/runtime-main.081bc274.js",
     "runtime-main.js.map": "/ldrbet/static/js/runtime-main.081bc274.js.map",
     "static/js/2.92c8505d.chunk.js": "/ldrbet/static/js/2.92c8505d.chunk.js",
     "static/js/2.92c8505d.chunk.js.map": "/ldrbet/static/js/2.92c8505d.chunk.js.map",
     "index.html": "/ldrbet/index.html",
-    "precache-manifest.49c1893958d6cf5ed5d873ebda0cd860.js": "/ldrbet/precache-manifest.49c1893958d6cf5ed5d873ebda0cd860.js",
+    "precache-manifest.43ccb9a35649952e852dca8ed1783b58.js": "/ldrbet/precache-manifest.43ccb9a35649952e852dca8ed1783b58.js",
     "service-worker.js": "/ldrbet/service-worker.js",
     "static/css/main.a0af0c25.chunk.css.map": "/ldrbet/static/css/main.a0af0c25.chunk.css.map",
     "static/js/2.92c8505d.chunk.js.LICENSE.txt": "/ldrbet/static/js/2.92c8505d.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.081bc274.js",
     "static/js/2.92c8505d.chunk.js",
     "static/css/main.a0af0c25.chunk.css",
-    "static/js/main.352cb37e.chunk.js"
+    "static/js/main.72125676.chunk.js"
   ]
 }
